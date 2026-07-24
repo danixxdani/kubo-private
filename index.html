@@ -199,7 +199,7 @@
             <div style="background:#2a2a30;border-radius:9px;height:150px"></div>
             <div class="btn" style="justify-content:center">Chat</div>
           </div></div>
-          <p class="cap">Private room live<small>same screen as entry point 3</small></p>
+          <p class="cap">Private room live</p>
         </div>
       </div>
 
@@ -257,7 +257,7 @@
 
 <section class="flow">
   <h2>Entry point 3 — start directly from content</h2>
-  <p class="desc">Framed as "watch together" rather than "create a broadcast" — a lighter, more natural entry. Since the content is already chosen, no thumbnail or title input is needed. The page layout itself — poster and info side by side, then Live/Upcoming below — is unchanged; "Watch together" is added as its own button directly under the poster, next to Play.</p>
+  <p class="desc">Framed as "watch together" rather than "create a broadcast" — a lighter, more natural entry. Since the content is already chosen, no thumbnail or title input is needed. The movie detail page itself is unchanged; the new part is the "Watch together" button under the poster. From there on, it's the exact same screen as entry point 1 — same toggle, same options, same gate on Public.</p>
   <div class="row">
     <div>
       <div class="phone" style="width:280px;"><div class="screen" style="min-height:auto;padding:14px 13px;">
@@ -309,33 +309,35 @@
     <div class="arrow" style="margin-top:150px;">→<span class="arrow-label">tap Watch together</span></div>
     <div>
       <div class="phone"><div class="screen">
-        <div style="font-weight:600;font-size:12px">Watch "Sophie Scholl" together</div>
-        <div class="btn">Copy invite link</div>
-        <div class="btn">Invite from contacts</div>
+        <div style="font-size:12px;color:var(--dim)">‹</div>
+        <div style="display:flex;background:var(--card);border-radius:20px;padding:3px;gap:2px">
+          <div style="flex:1;text-align:center;padding:5px 0;border-radius:16px;color:var(--dim);font-size:10px">Public</div>
+          <div style="flex:1;text-align:center;padding:5px 0;border-radius:16px;background:var(--accent);color:var(--accent-ink);font-weight:600;font-size:10px">Private</div>
+        </div>
         <div class="cols2" style="margin-top:2px">
-          <div class="btn active-outline">Now</div>
-          <div class="btn">Schedule</div>
+          <div class="btn active-outline" style="justify-content:center;font-size:10px;">Watch party</div>
+          <div class="btn" style="justify-content:center;font-size:10px;">Just chatting</div>
         </div>
-        <div class="btn primary" style="margin-top:auto">Start private room</div>
+        <div style="font-size:10px;color:var(--dim)">Up to 20 guests</div>
+        <div class="btn" style="font-size:10px;">Add a title for your room</div>
+        <div class="btn primary" style="justify-content:center;margin-top:10px;">Start room</div>
       </div></div>
-      <p class="cap">Invite & start<small>no host form required</small></p>
+      <p class="cap">Create screen<small>identical to entry point 1's screen</small></p>
     </div>
-    <div class="arrow">→<span class="arrow-label">start</span></div>
+
+    <div class="arrow">→<span class="arrow-label">tap Public tab</span></div>
     <div>
-      <div class="phone"><div class="screen">
-        <div style="display:flex;justify-content:space-between;align-items:center;font-size:9.5px;color:var(--dim)">
-          <span>‹</span>
-          <span style="display:flex;align-items:center;gap:4px;">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
-            Private · 3 watching
-          </span>
-          <span>×</span>
+      <div class="phone"><div class="screen" style="padding:0;">
+        <div class="hero">
+          <span class="chev">‹</span>
+          <div style="font-weight:700;font-size:16px;color:#fff;margin-bottom:5px">Become a host</div>
+          <div style="font-weight:600;font-size:11px;color:#fff;margin-bottom:4px">Share your love of movies</div>
+          <div style="font-size:9px;color:#d8d8d8;margin-bottom:10px">Host live watch parties, discussions, reviews, and more with fellow film fans</div>
+          <div class="btn primary" style="margin-bottom:6px">Apply to host</div>
+          <div style="font-size:8px;color:var(--dim);text-align:center">Takes about 3 minutes · Free to apply</div>
         </div>
-        <div style="background:#2a2a30;border-radius:9px;height:150px"></div>
-        <div style="display:flex;gap:4px"><div class="avatar" style="width:20px;height:20px"></div><div class="avatar" style="width:20px;height:20px"></div><div class="avatar" style="width:20px;height:20px"></div></div>
-        <div class="btn" style="justify-content:center">Chat</div>
       </div></div>
-      <p class="cap">Private room live</p>
+      <p class="cap">Public tab redirects here<small>same onboarding steps as entry point 2</small></p>
     </div>
   </div>
 </section>
